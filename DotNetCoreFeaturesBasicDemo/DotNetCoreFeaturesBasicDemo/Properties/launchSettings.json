@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "DotNetCoreFeaturesBasicDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "Should I use top level statements in all my web programs?",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
