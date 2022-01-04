@@ -1,6 +1,6 @@
 ﻿**Overview**
 
-This document covers brief overview of the following .NET Core runtime libraries features.
+This Sample Project covers brief overview of the following .NET Core runtime libraries features.
 
 1. Application Host
 1. Dependency Injection
@@ -22,7 +22,7 @@ To add hosting feature in a console app
 1. Add [Microsoft.Extensions.Hosting](https://www.nuget.org/packages/Microsoft.Extensions.Hosting) NuGet package.
 1. Add below code in the Main method
 
-![Graphical user interface, text, application Description automatically generated](5ff5e3a9-304b-4902-8a67-8dc4020fbbb4.001.png)
+![Generic Host](https://user-images.githubusercontent.com/15940352/148088828-02db7c39-a8a7-4f46-b004-11e01a65b6c4.png)
 
 Host.CreateDefaultBuilder() call creates default host builder which
 
@@ -61,13 +61,13 @@ Logging providers are the target where log information will go/persisted such as
 To create logs, use an ILogger<TCategoryName> object from DI.
 Logging configuration is commonly provided by the Logging section of the appsettings.json file.
 
-1. Log Level configuration example configuration
+Log Level configuration example configuration
 
-![Graphical user interface, text, application Description automatically generated](5ff5e3a9-304b-4902-8a67-8dc4020fbbb4.002.png)
+![Aspose Words 5ff5e3a9-304b-4902-8a67-8dc4020fbbb4 002](https://user-images.githubusercontent.com/15940352/148089057-08dc39a8-f788-45dd-8f91-10df6ae04c32.png)
 
-1. Log Level + Logging Provider example configuration
+Log Level + Logging Provider example configuration
 
-![Text Description automatically generated](5ff5e3a9-304b-4902-8a67-8dc4020fbbb4.003.png)
+![Aspose Words 5ff5e3a9-304b-4902-8a67-8dc4020fbbb4 003](https://user-images.githubusercontent.com/15940352/148089019-21bc3aa9-44a1-451f-b04f-221b441fbea7.png)
 
 Microsoft Extensions includes the following built-in logging providers:
 
